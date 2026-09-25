@@ -1,4 +1,4 @@
-# mis203-basic-programming
+# mis203-basic-programming 
 
 * **Name:** Sevim Sarıkaya
 * **Student Number:** [2404109006]
@@ -7,7 +7,14 @@
 
 ---
 
-### AI Usage Information
+### AI Usage Information / week01
 * **AI Tool Used:** Gemini
 * **Prompt Used:** "Write a simple Python program that asks the user for their Name, Department, Age, and Career Goal, then prints a formatted Student Profile."
 * **What did you change?:** I reviewed the generated code and verified that the output structure matched the required assignment format.
+
+## Week 02
+
+* **AI Tool Used:** Gemini
+* **Prompt Used:** "Create a Python program using while True, break, and continue to calculate student letter grades and average scores."
+* **What did you change?:** I made the code simpler by using float conversion instead of try-except blocks, and I checked that the output matches the assignment requirements.
+* **What does break do in your program?:** The break statement stops the infinite loop immediately when the user enters 'q' for the student name.
