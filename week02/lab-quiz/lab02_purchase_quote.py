@@ -1,14 +1,17 @@
 #1.inputs for Item 1
 item1_name = input("Enter Item 1 Name:")
-item1_qty = int(input("Enter Item 1 Quatity:")
-item1_price = float(input("Enter Item 1Unit Price:"))
+item1_qty = int(input("Enter Item 1 Quantity:"))
+item1_price = float(input("Enter Item 1 Unit Price:"))
+
 #2. inputs for Item 2
-item2_name = input(Enter Item 2 Name:")
-item2_qty = int(input("Enter Item 1 Quatity:"))
-item2_price = Float(input("Enter Item 2 Quatity:"))
+item2_name = input("Enter Item 2 Name:")
+item2_qty = int(input("Enter Item 2 Quantity:"))
+item2_price = float(input("Enter Item 2 Unit Price:"))
+
 #3.Inputs for delivery and tax
 delivery_fee = float(input("Enter Delivery Fee:"))
 tax_rate = float(input("Enter Tax Rate (%):"))
+
 #4.Calculations
 item1_subtotal = item1_qty * item1_price
 item2_subtotal = item2_qty * item2_price
@@ -23,7 +26,7 @@ print(f"{item1_name} ({item1_qty} x {item1_price:.2f}) : {item1_subtotal:.2f} TR
 print(f"{item2_name} ({item2_qty} x {item2_price:.2f}) : {item2_subtotal:.2f} TRY")
 
 print(f"Items Subtotal : {items_subtotal:.2f} TRY")
-print(f"Tax ({tax_rate:.0f}%") :{tax_amount:.2f} TRY")
+print(f"Tax ({tax_rate:.0f}%) :{tax_amount:.2f} TRY")
 print(f"Delivery Fee : {delivery_fee:.2f} TRY")
 print(f"FINAL TOTAL : {final_total:.2f} TRY")
                
