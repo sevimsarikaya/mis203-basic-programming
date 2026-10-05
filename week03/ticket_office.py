@@ -10,7 +10,7 @@ while True:
     if name == "q" or name == "Q":
         break #Exit the loop
    
- # 2. Get and validate age
+    # 2. Get and validate age
     age = int(input("Age:"))
     if age < 0 or age > 120:
         print("Invalid age. ")
