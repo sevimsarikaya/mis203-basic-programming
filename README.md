@@ -32,3 +32,19 @@
     2. 'Can, 5, WEEKEND, no, -> 'Can: 0.00 TRY (Free)'
     3. 'Mert, 9, weekday, yes -> 'Deniz: 120.00 TRY (Child)'
 * **Why does the order of the rules matter?:** "Python checks conditions from top to bottom and applies the first match. If the Student rule came before the Child rule, a 10-year-old student would get a 30% student discount instead of the higher 40% Child discount."
+
+---
+
+## Week 4 - Surprise Assignment
+
+* **AI Tool Used:** Gemini
+* **Prompt Used:** "Create a simple Python coffee program that matches coffee choices with popular songs, checks user input with a while loop, uses math and random libraries, and prints a simple receipt."
+* **What did you change?:** I simplified the code to fit our class topics. I removed complex error blocks, added B1-level English comments, replaced date formatting with the math library, and added matching songs for each coffee type's mood.
+* **Libraries Used:** 
+  1. `random`: I used `random.choice()` to pick a random song from the coffee's song list.
+  2. `math`: I used `math.ceil()` to round up the total price to a whole number.
+* **Tests:**
+  1. Alex, Choice 1 (Espresso), 1 cup -> Total: 100 TRY | Song: Dua Lipa - Training Session | Note: Enjoy your day!
+  2. Taylor, Choice 8 (Invalid) -> Choice 2 (Latte), 1 cup -> Warning shown, then Total: 180 TRY | Song: Coldplay - Yellow | Note: Enjoy your day!
+  3. Jordan, Choice 3 (Filter Coffee), 2 cups -> Total: 200 TRY | Song: Imagine Dragons - Believer | Note: High caffeine alert! Drink water too.
+* **Why did we use a while loop?:** We used the while loop to check the user's choice. If the user types a number outside 1-4, the program asks again until they enter a valid option. This stops the program from crashing.
