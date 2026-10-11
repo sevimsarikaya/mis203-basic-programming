@@ -44,7 +44,7 @@
   1. `random`: I used `random.choice()` to pick a random song from the coffee's song list.
   2. `math`: I used `math.ceil()` to round up the total price to a whole number.
 * **Tests:**
-  1. Alex, Choice 1 (Espresso), 1 cup -> Total: 100 TRY | Song: Dua Lipa - Training Session | Note: Enjoy your day!
-  2. Taylor, Choice 8 (Invalid) -> Choice 2 (Latte), 1 cup -> Warning shown, then Total: 180 TRY | Song: Coldplay - Yellow | Note: Enjoy your day!
-  3. Jordan, Choice 3 (Filter Coffee), 2 cups -> Total: 200 TRY | Song: Imagine Dragons - Believer | Note: High caffeine alert! Drink water too.
+  1. Ceylin, Choice 1 (Espresso), 1 cup -> Total: 100 TRY | Song: Dua Lipa - Training Session | Note: Enjoy your day!
+  2. Mert, Choice 8 (Invalid) -> Choice 2 (Latte), 1 cup -> Warning shown, then Total: 180 TRY | Song: Coldplay - Yellow | Note: Enjoy your day!
+  3. Sevda, Choice 3 (Filter Coffee), 2 cups -> Total: 200 TRY | Song: Imagine Dragons - Believer | Note: High caffeine alert! Drink water too.
 * **Why did we use a while loop?:** We used the while loop to check the user's choice. If the user types a number outside 1-4, the program asks again until they enter a valid option. This stops the program from crashing.
